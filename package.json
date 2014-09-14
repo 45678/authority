@@ -1,0 +1,14 @@
+{
+  "name": "authority",
+  "version": "0.0.0",
+  "description": "Make X.509 certificates.",
+  "license": "Unlicense",
+  "main": "authority.js",
+  "devDependencies": {
+    "coffee-script": "*",
+    "nodeunit": "*"
+  },
+  "scripts": {
+    "test": "coffee --compile authority.coffee && nodeunit authority_test.coffee"
+  }
+}
