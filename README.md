@@ -21,15 +21,14 @@ For example, here is a script to make a basic self-signed certificate for an int
     Authority.createCertificate
       "subject":
         "common_name":   "mail.example.org"
-        "title":         "Mail Service"
+        "title":         "Example Mail Service"
         "email_address": "postmaster@example.org"
-        "region":        "Ontario"
         "country_code":  "CA"
 
       "subject_key": readFileSync "mail.example.org.private.key"
 
       "started_at": (new Date).toJSON()
-      "expires_at": "2078-01-01T00:00:01.000Z"
+      "expires_at": "2020-01-01T00:00:01.000Z"
 
       "callback": (error, certificate) ->
         throw error if error
