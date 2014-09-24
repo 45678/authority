@@ -142,7 +142,8 @@ hassle (except that the human interface is unbearable, unfortunately).
 
 # Recommended Reading
 
-Ellison, Carl (1996) [Establishing Identity Without Certification Authorities](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.7263&rep=rep1&type=pdf) _6th USENIX Security Symposium._
+[Establishing Identity Without Certification Authorities](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.7263&rep=rep1&type=pdf)
+by Carl Ellison. Published at the _6th USENIX Security Symposium_ in 1996.
 
 # Constraints
 
