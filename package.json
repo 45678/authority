@@ -4,6 +4,10 @@
   "description": "Make X.509 certificates.",
   "license": "Unlicense",
   "main": "authority.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/45678/authority.git"
+  },
   "devDependencies": {
     "coffee-script": "*",
     "nodeunit": "*"
