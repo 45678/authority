@@ -1,6 +1,6 @@
 # Authority
 _Make certificates in Node
-with CoffeeScript (or Javascript)
+with CoffeeScript (or any old ECMAScript)
 using OpenSSL
 via Ruby._
 
