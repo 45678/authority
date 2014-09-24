@@ -37,11 +37,11 @@ For example, here is a script to make a basic self-signed certificate for an int
 
 # Start
 
-Run `npm install authority` to get the module and require it in your program like so:
+Run `npm install 45678/authority.git` to get the module. Require it in your program like so:
 
     Authority = require "authority"
 
-You’ll also need a copy of `ruby` installed on your computer. Authority employs the [OpenSSL bindings](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/openssl/rdoc/OpenSSL) in [Ruby](http://ruby-lang.org/) to construct certificates because [Node](http://nodejs.org/) doesn’t have built-in support for that kind of thing right now. Authority will run `/usr/bin/which ruby` to locate your `ruby` executable. If that doesn’t work, or if you just enjoy being explicit, you can set the path manually with:
+You’ll also need a copy of `ruby` installed on your computer. Authority employs the [OpenSSL bindings](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/openssl/rdoc/OpenSSL) in [Ruby](http://ruby-lang.org/) to construct certificates because [Node](http://nodejs.org/) didn’t have built-in support for that kind of thing when this was written. Authority will run `/usr/bin/which ruby` to locate your `ruby` executable. If that doesn’t work, or if you just enjoy being explicit, you can set the path manually with:
 
     Authority.ruby = "/path/to/your/ruby"
 
